@@ -20,6 +20,7 @@ const ImageSliding = () => {
   };
 
   useEffect(() => {
+    // adding sliding effect on image change.
     const slideAnimation = () => {
       const currentImage = document.getElementById("imageid");
     //   currentImage.style.translate = "200px";

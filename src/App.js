@@ -1,7 +1,12 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavigationBar from "./components/NavigationBar";
+import ImageSliding from "./components/ImageSliding";
+
 function App() {
   return (
     <>
-      <p className='text-3xl w-auto h-auto bg-green-400' >Akshat Singh Thakur</p>
+      <NavigationBar /> 
+      <ImageSliding/>
     </>
   );
 }
